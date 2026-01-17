@@ -114,6 +114,12 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 |------|-------------|---------|-------|-------------|
 | [safer_fetch_mcp](https://github.com/Tommertom/safer_fetch_mcp) | Safer fetch MCP server | Free | ![stars](https://img.shields.io/github/stars/Tommertom/safer_fetch_mcp?style=flat) | *[@Tommertom](https://github.com/Tommertom)* |
 
+### BI & Analytics
+
+| Name | Description | Pricing | Stars | Contributor |
+|------|-------------|---------|-------|-------------|
+| [qlik-mcp](https://github.com/jwaxman19/qlik-mcp) | Qlik BI platform integration | Free | ![stars](https://img.shields.io/github/stars/jwaxman19/qlik-mcp?style=flat) | *[@jwaxman19](https://github.com/jwaxman19)* |
+
 ---
 
 ## Skills
