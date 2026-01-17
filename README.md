@@ -47,6 +47,9 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 | [SQLite MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) | SQLite local database | Free | ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat) |
 | [MongoDB MCP](https://github.com/mongodb-js/mongodb-mcp-server) | Official MongoDB MCP server | Freemium | ![GitHub stars](https://img.shields.io/github/stars/mongodb-js/mongodb-mcp-server?style=flat) |
 | [MySQL MCP](https://github.com/benborla/mcp-server-mysql) | MySQL database operations | Free | ![GitHub stars](https://img.shields.io/github/stars/benborla/mcp-server-mysql?style=flat) |
+| [MySQL MCP Server](https://github.com/designcomputer/mysql_mcp_server) | MySQL secure interaction | Free | ![GitHub stars](https://img.shields.io/github/stars/designcomputer/mysql_mcp_server?style=flat) |
+| [dbhub](https://github.com/bytebase/dbhub) | Multi-DB: Postgres, MySQL, SQLite, MariaDB | Free | ![GitHub stars](https://img.shields.io/github/stars/bytebase/dbhub?style=flat) |
+| [pg-aiguide](https://github.com/timescale/pg-aiguide) | Postgres skills + documentation | Free | ![GitHub stars](https://img.shields.io/github/stars/timescale/pg-aiguide?style=flat) |
 | [Redis MCP](https://github.com/redis/mcp-redis) | Official Redis MCP server | Free | ![GitHub stars](https://img.shields.io/github/stars/redis/mcp-redis?style=flat) |
 | [Upstash MCP](https://github.com/upstash/mcp-server) | Upstash Redis & Kafka | Freemium | ![GitHub stars](https://img.shields.io/github/stars/upstash/mcp-server?style=flat) |
 | [Neo4j MCP](https://github.com/neo4j-contrib/mcp-neo4j) | Neo4j graph database | Freemium | ![GitHub stars](https://img.shields.io/github/stars/neo4j-contrib/mcp-neo4j?style=flat) |
@@ -90,6 +93,7 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
 | [Google Sheets MCP](https://github.com/xing5/mcp-google-sheets) | Google Sheets operations | Free | ![GitHub stars](https://img.shields.io/github/stars/xing5/mcp-google-sheets?style=flat) |
+| [Excel MCP Server](https://github.com/haris-musa/excel-mcp-server) | Excel file manipulation | Free | ![GitHub stars](https://img.shields.io/github/stars/haris-musa/excel-mcp-server?style=flat) |
 | [Airtable MCP](https://github.com/domdomegg/airtable-mcp-server) | Airtable database | Freemium | ![GitHub stars](https://img.shields.io/github/stars/domdomegg/airtable-mcp-server?style=flat) |
 | [Airtable Server](https://github.com/felores/airtable-mcp) | Alternative Airtable MCP | Freemium | ![GitHub stars](https://img.shields.io/github/stars/felores/airtable-mcp?style=flat) |
 | [Notion MCP](https://github.com/makenotion/notion-mcp-server) | Official Notion MCP | Freemium | ![GitHub stars](https://img.shields.io/github/stars/makenotion/notion-mcp-server?style=flat) |
