@@ -21,6 +21,9 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 **Skills (Workflows)**
 - [Skills](#skills)
 
+**Community**
+- [Community Contributions](#community-contributions) 🆕
+
 ---
 
 ## Data Warehouses
@@ -98,6 +101,18 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 | [Airtable Server](https://github.com/felores/airtable-mcp) | Alternative Airtable MCP | Freemium | ![GitHub stars](https://img.shields.io/github/stars/felores/airtable-mcp?style=flat) |
 | [Notion MCP](https://github.com/makenotion/notion-mcp-server) | Official Notion MCP | Freemium | ![GitHub stars](https://img.shields.io/github/stars/makenotion/notion-mcp-server?style=flat) |
 | [Notion Server](https://github.com/suekou/mcp-notion-server) | Alternative Notion MCP | Free | ![GitHub stars](https://img.shields.io/github/stars/suekou/mcp-notion-server?style=flat) |
+
+---
+
+## Community Contributions
+
+> 🙏 Thanks to these contributors who submitted their MCP servers!
+
+### Data Fetching
+
+| Name | Description | Pricing | Stars | Contributor |
+|------|-------------|---------|-------|-------------|
+| [safer_fetch_mcp](https://github.com/Tommertom/safer_fetch_mcp) | Safer fetch MCP server | Free | ![stars](https://img.shields.io/github/stars/Tommertom/safer_fetch_mcp?style=flat) | *[@Tommertom](https://github.com/Tommertom)* |
 
 ---
 
