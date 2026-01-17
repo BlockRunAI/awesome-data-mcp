@@ -1,8 +1,8 @@
-# Awesome Data MCP
+# Awesome Data MCP & Skills
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of MCP (Model Context Protocol) servers for data engineering, analytics, and business intelligence.
+A curated list of **MCP servers** and **AI skills** for data engineering, analytics, and business intelligence.
 
 > Maintained by [BlockRun](https://blockrun.ai) - Give your AI agent a wallet, not API keys.
 
@@ -10,14 +10,16 @@ A curated list of MCP (Model Context Protocol) servers for data engineering, ana
 
 ## Contents
 
+**MCP Servers**
 - [Data Warehouses](#data-warehouses)
 - [Databases](#databases)
+- [Vector Databases](#vector-databases)
 - [ETL & Data Pipelines](#etl--data-pipelines)
 - [Business Intelligence](#business-intelligence)
-- [Data Catalogs](#data-catalogs)
-- [Vector Databases](#vector-databases)
-- [Spreadsheets](#spreadsheets)
-- [Data Quality](#data-quality)
+- [Spreadsheets & Docs](#spreadsheets--docs)
+
+**Skills (Workflows)**
+- [Skills](#skills)
 
 ---
 
@@ -25,13 +27,15 @@ A curated list of MCP (Model Context Protocol) servers for data engineering, ana
 
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
-| [Snowflake MCP](https://github.com/snowflakedb/mcp-server) | Snowflake data warehouse | Requires account | ![GitHub stars](https://img.shields.io/github/stars/snowflakedb/mcp-server?style=flat) |
-| [BigQuery MCP](https://github.com/LucasHild/mcp-server-bigquery) | Google BigQuery | Free | ![GitHub stars](https://img.shields.io/github/stars/LucasHild/mcp-server-bigquery?style=flat) |
-| [Redshift MCP](https://github.com/aws/redshift-mcp) | Amazon Redshift | Requires account | ![GitHub stars](https://img.shields.io/github/stars/aws/redshift-mcp?style=flat) |
-| [Databricks MCP](https://github.com/databricks/mcp-server) | Databricks Lakehouse | Requires account | ![GitHub stars](https://img.shields.io/github/stars/databricks/mcp-server?style=flat) |
-| [ClickHouse MCP](https://github.com/ClickHouse/mcp-server) | ClickHouse OLAP | Free | ![GitHub stars](https://img.shields.io/github/stars/ClickHouse/mcp-server?style=flat) |
-| [DuckDB MCP](https://github.com/duckdb/mcp-server) | DuckDB analytical database | Free | ![GitHub stars](https://img.shields.io/github/stars/duckdb/mcp-server?style=flat) |
-| [MotherDuck MCP](https://github.com/motherduck-db/mcp-server) | MotherDuck serverless DuckDB | Freemium | ![GitHub stars](https://img.shields.io/github/stars/motherduck-db/mcp-server?style=flat) |
+| [Snowflake MCP](https://github.com/Snowflake-Labs/mcp) | Official Snowflake MCP server | Requires account | ![GitHub stars](https://img.shields.io/github/stars/Snowflake-Labs/mcp?style=flat) |
+| [BigQuery MCP](https://github.com/LucasHild/mcp-server-bigquery) | Google BigQuery operations | Free | ![GitHub stars](https://img.shields.io/github/stars/LucasHild/mcp-server-bigquery?style=flat) |
+| [BigQuery Server](https://github.com/ergut/mcp-bigquery-server) | Alternative BigQuery MCP | Free | ![GitHub stars](https://img.shields.io/github/stars/ergut/mcp-bigquery-server?style=flat) |
+| [ClickHouse MCP](https://github.com/ClickHouse/mcp-clickhouse) | ClickHouse OLAP database | Free | ![GitHub stars](https://img.shields.io/github/stars/ClickHouse/mcp-clickhouse?style=flat) |
+| [DuckDB MCP](https://github.com/ktanaka101/mcp-server-duckdb) | DuckDB analytical database | Free | ![GitHub stars](https://img.shields.io/github/stars/ktanaka101/mcp-server-duckdb?style=flat) |
+| [MotherDuck MCP](https://github.com/motherduckdb/mcp-server-motherduck) | MotherDuck serverless DuckDB | Freemium | ![GitHub stars](https://img.shields.io/github/stars/motherduckdb/mcp-server-motherduck?style=flat) |
+| [Tinybird MCP](https://github.com/tinybirdco/mcp-tinybird) | Real-time analytics platform | Freemium | ![GitHub stars](https://img.shields.io/github/stars/tinybirdco/mcp-tinybird?style=flat) |
+| [CrateDB MCP](https://github.com/crate/cratedb-mcp) | CrateDB distributed SQL | Free | ![GitHub stars](https://img.shields.io/github/stars/crate/cratedb-mcp?style=flat) |
+| [RisingWave MCP](https://github.com/risingwavelabs/risingwave-mcp) | Streaming database | Free | ![GitHub stars](https://img.shields.io/github/stars/risingwavelabs/risingwave-mcp?style=flat) |
 
 ---
 
@@ -40,54 +44,16 @@ A curated list of MCP (Model Context Protocol) servers for data engineering, ana
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
 | [PostgreSQL MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) | PostgreSQL operations | Free | ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat) |
-| [MySQL MCP](https://github.com/mysql/mcp-server) | MySQL database | Free | ![GitHub stars](https://img.shields.io/github/stars/mysql/mcp-server?style=flat) |
-| [MongoDB MCP](https://github.com/mongodb/mcp-server) | MongoDB NoSQL | Freemium | ![GitHub stars](https://img.shields.io/github/stars/mongodb/mcp-server?style=flat) |
 | [SQLite MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) | SQLite local database | Free | ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat) |
-| [Redis MCP](https://github.com/redis/mcp-server) | Redis cache and data | Free | ![GitHub stars](https://img.shields.io/github/stars/redis/mcp-server?style=flat) |
-| [Elasticsearch MCP](https://github.com/elastic/mcp-server) | Elasticsearch search | Free | ![GitHub stars](https://img.shields.io/github/stars/elastic/mcp-server?style=flat) |
-| [CockroachDB MCP](https://github.com/cockroachdb/mcp-server) | CockroachDB distributed SQL | Freemium | ![GitHub stars](https://img.shields.io/github/stars/cockroachdb/mcp-server?style=flat) |
-| [SingleStore MCP](https://github.com/singlestore-labs/mcp-server) | SingleStore real-time DB | Freemium | ![GitHub stars](https://img.shields.io/github/stars/singlestore-labs/mcp-server?style=flat) |
-
----
-
-## ETL & Data Pipelines
-
-| Name | Description | Pricing | Stars |
-|------|-------------|---------|-------|
-| [Airbyte MCP](https://github.com/airbytehq/mcp-server) | Airbyte data integration | Freemium | ![GitHub stars](https://img.shields.io/github/stars/airbytehq/mcp-server?style=flat) |
-| [Fivetran MCP](https://github.com/fivetran/mcp-server) | Fivetran ELT | Requires account | ![GitHub stars](https://img.shields.io/github/stars/fivetran/mcp-server?style=flat) |
-| [dbt MCP](https://github.com/dbt-labs/mcp-server) | dbt data transformation | Free | ![GitHub stars](https://img.shields.io/github/stars/dbt-labs/mcp-server?style=flat) |
-| [Dagster MCP](https://github.com/dagster-io/mcp-server) | Dagster orchestration | Freemium | ![GitHub stars](https://img.shields.io/github/stars/dagster-io/mcp-server?style=flat) |
-| [Prefect MCP](https://github.com/prefecthq/mcp-server) | Prefect workflows | Freemium | ![GitHub stars](https://img.shields.io/github/stars/prefecthq/mcp-server?style=flat) |
-| [Apache Airflow MCP](https://github.com/apache/airflow-mcp) | Airflow DAGs | Free | ![GitHub stars](https://img.shields.io/github/stars/apache/airflow-mcp?style=flat) |
-| [Meltano MCP](https://github.com/meltano/mcp-server) | Meltano data platform | Free | ![GitHub stars](https://img.shields.io/github/stars/meltano/mcp-server?style=flat) |
-| [Stitch MCP](https://github.com/stitchdata/mcp-server) | Stitch data pipeline | Requires account | ![GitHub stars](https://img.shields.io/github/stars/stitchdata/mcp-server?style=flat) |
-
----
-
-## Business Intelligence
-
-| Name | Description | Pricing | Stars |
-|------|-------------|---------|-------|
-| [Tableau MCP](https://github.com/tableau/mcp-server) | Tableau dashboards | Requires license | ![GitHub stars](https://img.shields.io/github/stars/tableau/mcp-server?style=flat) |
-| [Looker MCP](https://github.com/looker/mcp-server) | Looker BI platform | Requires account | ![GitHub stars](https://img.shields.io/github/stars/looker/mcp-server?style=flat) |
-| [Metabase MCP](https://github.com/metabase/mcp-server) | Metabase open-source BI | Free | ![GitHub stars](https://img.shields.io/github/stars/metabase/mcp-server?style=flat) |
-| [Apache Superset MCP](https://github.com/apache/superset-mcp) | Superset data exploration | Free | ![GitHub stars](https://img.shields.io/github/stars/apache/superset-mcp?style=flat) |
-| [Power BI MCP](https://github.com/microsoft/powerbi-mcp) | Microsoft Power BI | Requires license | ![GitHub stars](https://img.shields.io/github/stars/microsoft/powerbi-mcp?style=flat) |
-| [Mode MCP](https://github.com/mode/mcp-server) | Mode analytics | Requires account | ![GitHub stars](https://img.shields.io/github/stars/mode/mcp-server?style=flat) |
-| [Preset MCP](https://github.com/preset-io/mcp-server) | Preset managed Superset | Freemium | ![GitHub stars](https://img.shields.io/github/stars/preset-io/mcp-server?style=flat) |
-
----
-
-## Data Catalogs
-
-| Name | Description | Pricing | Stars |
-|------|-------------|---------|-------|
-| [Atlan MCP](https://github.com/atlanhq/mcp-server) | Atlan data catalog | Requires account | ![GitHub stars](https://img.shields.io/github/stars/atlanhq/mcp-server?style=flat) |
-| [Alation MCP](https://github.com/alation/mcp-server) | Alation data intelligence | Requires account | ![GitHub stars](https://img.shields.io/github/stars/alation/mcp-server?style=flat) |
-| [DataHub MCP](https://github.com/datahub-project/mcp-server) | DataHub metadata platform | Free | ![GitHub stars](https://img.shields.io/github/stars/datahub-project/mcp-server?style=flat) |
-| [OpenMetadata MCP](https://github.com/open-metadata/mcp-server) | OpenMetadata catalog | Free | ![GitHub stars](https://img.shields.io/github/stars/open-metadata/mcp-server?style=flat) |
-| [Amundsen MCP](https://github.com/amundsen-io/mcp-server) | Amundsen data discovery | Free | ![GitHub stars](https://img.shields.io/github/stars/amundsen-io/mcp-server?style=flat) |
+| [MongoDB MCP](https://github.com/mongodb-js/mongodb-mcp-server) | Official MongoDB MCP server | Freemium | ![GitHub stars](https://img.shields.io/github/stars/mongodb-js/mongodb-mcp-server?style=flat) |
+| [MySQL MCP](https://github.com/benborla/mcp-server-mysql) | MySQL database operations | Free | ![GitHub stars](https://img.shields.io/github/stars/benborla/mcp-server-mysql?style=flat) |
+| [Redis MCP](https://github.com/redis/mcp-redis) | Official Redis MCP server | Free | ![GitHub stars](https://img.shields.io/github/stars/redis/mcp-redis?style=flat) |
+| [Upstash MCP](https://github.com/upstash/mcp-server) | Upstash Redis & Kafka | Freemium | ![GitHub stars](https://img.shields.io/github/stars/upstash/mcp-server?style=flat) |
+| [Neo4j MCP](https://github.com/neo4j-contrib/mcp-neo4j) | Neo4j graph database | Freemium | ![GitHub stars](https://img.shields.io/github/stars/neo4j-contrib/mcp-neo4j?style=flat) |
+| [SingleStore MCP](https://github.com/singlestore-labs/mcp-server-singlestore) | SingleStore real-time DB | Freemium | ![GitHub stars](https://img.shields.io/github/stars/singlestore-labs/mcp-server-singlestore?style=flat) |
+| [Supabase MCP](https://github.com/supabase-community/supabase-mcp) | Supabase Postgres + APIs | Freemium | ![GitHub stars](https://img.shields.io/github/stars/supabase-community/supabase-mcp?style=flat) |
+| [Neon MCP](https://github.com/neondatabase/mcp-server-neon) | Neon serverless Postgres | Freemium | ![GitHub stars](https://img.shields.io/github/stars/neondatabase/mcp-server-neon?style=flat) |
+| [DataStax Astra MCP](https://github.com/DataStax/astra-db-mcp) | Astra DB (Cassandra) | Freemium | ![GitHub stars](https://img.shields.io/github/stars/DataStax/astra-db-mcp?style=flat) |
 
 ---
 
@@ -95,41 +61,62 @@ A curated list of MCP (Model Context Protocol) servers for data engineering, ana
 
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
-| [Pinecone MCP](https://github.com/pinecone-io/mcp-server) | Pinecone vector DB | Freemium | ![GitHub stars](https://img.shields.io/github/stars/pinecone-io/mcp-server?style=flat) |
-| [Weaviate MCP](https://github.com/weaviate/mcp-server) | Weaviate vector search | Freemium | ![GitHub stars](https://img.shields.io/github/stars/weaviate/mcp-server?style=flat) |
 | [Qdrant MCP](https://github.com/qdrant/mcp-server-qdrant) | Qdrant vector DB | Freemium | ![GitHub stars](https://img.shields.io/github/stars/qdrant/mcp-server-qdrant?style=flat) |
-| [Chroma MCP](https://github.com/chroma-core/mcp-server) | Chroma embeddings DB | Free | ![GitHub stars](https://img.shields.io/github/stars/chroma-core/mcp-server?style=flat) |
-| [Milvus MCP](https://github.com/milvus-io/mcp-server) | Milvus vector DB | Free | ![GitHub stars](https://img.shields.io/github/stars/milvus-io/mcp-server?style=flat) |
-| [LanceDB MCP](https://github.com/lancedb/mcp-server) | LanceDB serverless vector | Free | ![GitHub stars](https://img.shields.io/github/stars/lancedb/mcp-server?style=flat) |
+| [Chroma MCP](https://github.com/chroma-core/chroma-mcp) | Chroma embeddings DB | Free | ![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma-mcp?style=flat) |
+| [Weaviate MCP](https://github.com/weaviate/mcp-server-weaviate) | Weaviate vector search | Freemium | ![GitHub stars](https://img.shields.io/github/stars/weaviate/mcp-server-weaviate?style=flat) |
+| [Pinecone MCP](https://github.com/sirmews/mcp-pinecone) | Pinecone vector DB | Freemium | ![GitHub stars](https://img.shields.io/github/stars/sirmews/mcp-pinecone?style=flat) |
+| [Pinecone Server](https://github.com/zx8086/pinecone-vector-db-mcp-server) | Alternative Pinecone MCP | Freemium | ![GitHub stars](https://img.shields.io/github/stars/zx8086/pinecone-vector-db-mcp-server?style=flat) |
 
 ---
 
-## Spreadsheets
+## ETL & Data Pipelines
 
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
-| [Google Sheets MCP](https://github.com/nicobytes/google-sheets-mcp) | Google Sheets operations | Free | ![GitHub stars](https://img.shields.io/github/stars/nicobytes/google-sheets-mcp?style=flat) |
-| [Excel MCP](https://github.com/microsoft/excel-mcp) | Microsoft Excel | Free | ![GitHub stars](https://img.shields.io/github/stars/microsoft/excel-mcp?style=flat) |
-| [Airtable MCP](https://github.com/airtable/mcp-server) | Airtable bases | Freemium | ![GitHub stars](https://img.shields.io/github/stars/airtable/mcp-server?style=flat) |
-| [Smartsheet MCP](https://github.com/smartsheet/mcp-server) | Smartsheet platform | Requires account | ![GitHub stars](https://img.shields.io/github/stars/smartsheet/mcp-server?style=flat) |
-| [Coda MCP](https://github.com/coda/mcp-server) | Coda docs | Freemium | ![GitHub stars](https://img.shields.io/github/stars/coda/mcp-server?style=flat) |
+| [dbt MCP](https://github.com/dbt-labs/dbt-mcp) | dbt data transformation | Free | ![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-mcp?style=flat) |
 
 ---
 
-## Data Quality
+## Business Intelligence
 
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
-| [Great Expectations MCP](https://github.com/great-expectations/mcp-server) | Data validation | Free | ![GitHub stars](https://img.shields.io/github/stars/great-expectations/mcp-server?style=flat) |
-| [Monte Carlo MCP](https://github.com/monte-carlo-data/mcp-server) | Data observability | Requires account | ![GitHub stars](https://img.shields.io/github/stars/monte-carlo-data/mcp-server?style=flat) |
-| [Soda MCP](https://github.com/sodadata/mcp-server) | Soda data quality | Freemium | ![GitHub stars](https://img.shields.io/github/stars/sodadata/mcp-server?style=flat) |
-| [Deequ MCP](https://github.com/awslabs/deequ-mcp) | AWS Deequ data quality | Free | ![GitHub stars](https://img.shields.io/github/stars/awslabs/deequ-mcp?style=flat) |
+| [Tableau MCP](https://github.com/tableau/tableau-mcp) | Tableau visualization | Requires license | ![GitHub stars](https://img.shields.io/github/stars/tableau/tableau-mcp?style=flat) |
+
+---
+
+## Spreadsheets & Docs
+
+| Name | Description | Pricing | Stars |
+|------|-------------|---------|-------|
+| [Google Sheets MCP](https://github.com/xing5/mcp-google-sheets) | Google Sheets operations | Free | ![GitHub stars](https://img.shields.io/github/stars/xing5/mcp-google-sheets?style=flat) |
+| [Airtable MCP](https://github.com/domdomegg/airtable-mcp-server) | Airtable database | Freemium | ![GitHub stars](https://img.shields.io/github/stars/domdomegg/airtable-mcp-server?style=flat) |
+| [Airtable Server](https://github.com/felores/airtable-mcp) | Alternative Airtable MCP | Freemium | ![GitHub stars](https://img.shields.io/github/stars/felores/airtable-mcp?style=flat) |
+| [Notion MCP](https://github.com/makenotion/notion-mcp-server) | Official Notion MCP | Freemium | ![GitHub stars](https://img.shields.io/github/stars/makenotion/notion-mcp-server?style=flat) |
+| [Notion Server](https://github.com/suekou/mcp-notion-server) | Alternative Notion MCP | Free | ![GitHub stars](https://img.shields.io/github/stars/suekou/mcp-notion-server?style=flat) |
+
+---
+
+## Skills
+
+Skills are **task-level workflows** built on top of MCP servers or external APIs. They provide ready-to-use capabilities for common data tasks.
+
+| Name | Description | Built On | Stars |
+|------|-------------|----------|-------|
+| [SQL Assistant](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/sql-assistant) | Natural language to SQL queries with schema understanding | Claude Code Skill | - |
+| [Data Profiler](https://github.com/ComposioHQ/awesome-claude-skills/tree/main/data-profiler) | Automated data quality checks and profiling | Claude Code Skill | - |
 
 ---
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding MCPs to this list.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding MCPs or skills to this list.
+
+**Quick checklist:**
+- MCP/Skill must be related to data engineering, databases, or analytics
+- Include working GitHub link
+- Provide accurate description and pricing info
+- Test that it actually works
 
 ---
 
@@ -140,6 +127,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding MCPs to this lis
 </a>
 
 **[BlockRun](https://blockrun.ai)** - Give your AI agent a wallet, not API keys.
+
+BlockRun enables AI agents to make autonomous payments using x402 protocol. No API keys to manage, no OAuth to configure - just instant, secure transactions.
 
 ---
 
