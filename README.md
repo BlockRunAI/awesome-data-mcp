@@ -60,6 +60,7 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 | [Supabase MCP](https://github.com/supabase-community/supabase-mcp) | Supabase Postgres + APIs | Freemium | ![GitHub stars](https://img.shields.io/github/stars/supabase-community/supabase-mcp?style=flat) |
 | [Neon MCP](https://github.com/neondatabase/mcp-server-neon) | Neon serverless Postgres | Freemium | ![GitHub stars](https://img.shields.io/github/stars/neondatabase/mcp-server-neon?style=flat) |
 | [DataStax Astra MCP](https://github.com/DataStax/astra-db-mcp) | Astra DB (Cassandra) | Freemium | ![GitHub stars](https://img.shields.io/github/stars/DataStax/astra-db-mcp?style=flat) |
+| [GenAI Toolbox](https://github.com/googleapis/genai-toolbox) | Google's MCP Toolbox for Databases | Free | ![GitHub stars](https://img.shields.io/github/stars/googleapis/genai-toolbox?style=flat) |
 
 ---
 
@@ -80,6 +81,7 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
 | [dbt MCP](https://github.com/dbt-labs/dbt-mcp) | dbt data transformation | Free | ![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-mcp?style=flat) |
+| [Kreuzberg](https://github.com/Filimoa/kreuzberg) | Document extraction for 50+ formats | Free | ![GitHub stars](https://img.shields.io/github/stars/Filimoa/kreuzberg?style=flat) |
 
 ---
 
@@ -88,6 +90,7 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
 | [Tableau MCP](https://github.com/tableau/tableau-mcp) | Tableau visualization | Requires license | ![GitHub stars](https://img.shields.io/github/stars/tableau/tableau-mcp?style=flat) |
+| [MCP Chart](https://github.com/antoncoding/mcp-chart) | 25+ visual charts for data analysis | Free | ![GitHub stars](https://img.shields.io/github/stars/antoncoding/mcp-chart?style=flat) |
 
 ---
 
