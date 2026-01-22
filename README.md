@@ -82,6 +82,8 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 |------|-------------|---------|-------|
 | [dbt MCP](https://github.com/dbt-labs/dbt-mcp) | dbt data transformation | Free | ![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-mcp?style=flat) |
 | [Kreuzberg](https://github.com/Filimoa/kreuzberg) | Document extraction for 50+ formats | Free | ![GitHub stars](https://img.shields.io/github/stars/Filimoa/kreuzberg?style=flat) |
+| [Crawl4AI RAG](https://github.com/coleam00/mcp-crawl4ai-rag) | Web crawling with RAG capabilities | Free | ![GitHub stars](https://img.shields.io/github/stars/coleam00/mcp-crawl4ai-rag?style=flat) |
+| [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | All-in-one public web access solution | Freemium | ![GitHub stars](https://img.shields.io/github/stars/brightdata/brightdata-mcp?style=flat) |
 
 ---
 
