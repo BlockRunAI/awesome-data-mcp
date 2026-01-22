@@ -81,7 +81,7 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
 | [dbt MCP](https://github.com/dbt-labs/dbt-mcp) | dbt data transformation | Free | ![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-mcp?style=flat) |
-| [Kreuzberg](https://github.com/Filimoa/kreuzberg) | Document extraction for 50+ formats | Free | ![GitHub stars](https://img.shields.io/github/stars/Filimoa/kreuzberg?style=flat) |
+| [Kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) | Document extraction for 50+ formats | Free | ![GitHub stars](https://img.shields.io/github/stars/kreuzberg-dev/kreuzberg?style=flat) |
 | [Crawl4AI RAG](https://github.com/coleam00/mcp-crawl4ai-rag) | Web crawling with RAG capabilities | Free | ![GitHub stars](https://img.shields.io/github/stars/coleam00/mcp-crawl4ai-rag?style=flat) |
 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | All-in-one public web access solution | Freemium | ![GitHub stars](https://img.shields.io/github/stars/brightdata/brightdata-mcp?style=flat) |
 
@@ -92,7 +92,6 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
 | [Tableau MCP](https://github.com/tableau/tableau-mcp) | Tableau visualization | Requires license | ![GitHub stars](https://img.shields.io/github/stars/tableau/tableau-mcp?style=flat) |
-| [MCP Chart](https://github.com/antoncoding/mcp-chart) | 25+ visual charts for data analysis | Free | ![GitHub stars](https://img.shields.io/github/stars/antoncoding/mcp-chart?style=flat) |
 
 ---
 
