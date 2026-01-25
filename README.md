@@ -84,6 +84,8 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 | [Kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) | Document extraction for 50+ formats | Free | ![GitHub stars](https://img.shields.io/github/stars/kreuzberg-dev/kreuzberg?style=flat) |
 | [Crawl4AI RAG](https://github.com/coleam00/mcp-crawl4ai-rag) | Web crawling with RAG capabilities | Free | ![GitHub stars](https://img.shields.io/github/stars/coleam00/mcp-crawl4ai-rag?style=flat) |
 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | All-in-one public web access solution | Freemium | ![GitHub stars](https://img.shields.io/github/stars/brightdata/brightdata-mcp?style=flat) |
+| [Markdownify MCP](https://github.com/zcaceres/markdownify-mcp) | Convert almost anything to Markdown | Free | ![GitHub stars](https://img.shields.io/github/stars/zcaceres/markdownify-mcp?style=flat) |
+| [MCP Alchemy](https://github.com/runekaagaard/mcp-alchemy) | SQLAlchemy MCP for SQLite, Postgres, MySQL | Free | ![GitHub stars](https://img.shields.io/github/stars/runekaagaard/mcp-alchemy?style=flat) |
 
 ---
 
@@ -91,6 +93,7 @@ A curated list of **MCP servers** and **AI skills** for data engineering, analyt
 
 | Name | Description | Pricing | Stars |
 |------|-------------|---------|-------|
+| [OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Unified metadata platform for data discovery | Free | ![GitHub stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=flat) |
 | [Tableau MCP](https://github.com/tableau/tableau-mcp) | Tableau visualization | Requires license | ![GitHub stars](https://img.shields.io/github/stars/tableau/tableau-mcp?style=flat) |
 
 ---
